@@ -3,20 +3,23 @@ This app was built following [this tutorial](https://www.youtube.com/watch?v=COD
 
 
 ## How to use this app
-    # To generate an executable file, run:
+To generate an executable file, run:
+
     go build
 
 ### Get all videos
+To get all videos from videos.json file, run:
 
-    # To get all videos from videos.json file, run:
     ./videos get --all
     
-    # To get a single video from videos.json file, run:
+To get a single video from videos.json, run:
+
     ./videos get --id {video id}
 
 
 
 ### Add a video
+To add a video to videos.json, run:
 
-    # To add a video to the videos.json file, run:
+
     ./videos add --id {new id} --title {new title} --url {new url} --imageurl {new image url} --description {new description}

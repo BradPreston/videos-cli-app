@@ -7,11 +7,11 @@ import (
 
 // Video is the type that defines what a video should be
 type Video struct {
-	ID 			string
-	Title	 	string
+	ID string
+	Title string
 	Description string
-	ImageURL 	string
-	URL 		string
+	ImageURL string
+	URL string
 }
 
 // getVideos gets and returns the videos from a json file
